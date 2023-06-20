@@ -1,0 +1,19 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.container__characters {
+  display: grid;
+  grid-template-columns: repeat(4, 112px);
+  justify-content: center;
+}
+.container__characters__character {
+  border: 3px solid 0;
+}/*# sourceMappingURL=stylesheet.css.map */

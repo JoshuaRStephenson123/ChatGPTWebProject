@@ -1,0 +1,47 @@
+html{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.container{
+    &__characters{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        &__character{
+            display: flex;
+            height: 250px;
+            width: 250px;
+            border: 3px solid red;
+            border-radius: 50%;
+            margin: 5%;
+
+        & img{
+            height: inherit;
+            width: inherit;
+            object-fit: cover;
+            border-radius: inherit;
+        }
+
+        }
+    }
+}
+
+.hidden{
+    display: none !important;
+}
+.loading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    left: 35%;
+}
